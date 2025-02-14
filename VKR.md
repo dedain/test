@@ -1,1 +1,9 @@
-![1первичная](https://github.com/user-attachments/assets/f4fd45a1-897c-46ae-b705-3022791974cb)
+## Конфигурация стекирования
+**На CORE1**
+~~~
+en
+conf t
+stackwise-virtual
+int range gi0/3-4
+domian 100
+~~~
