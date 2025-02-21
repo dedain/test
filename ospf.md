@@ -21,7 +21,7 @@ network 192.168.0.128 0.0.0.127 area 2  ! Call-центр
 network 192.168.0.0 0.0.0.127 area 3    ! Отдел продаж
 ~~~
 
-! Конфигурация OSPF для DIST1 (Отдел управления)
+Конфигурация OSPF для DIST1 (Отдел управления)
 ~~~
 conf t
 router ospf 10
@@ -31,7 +31,7 @@ router ospf 10
 exit
 ~~~
 
-! Конфигурация OSPF для DIST2 (Технический отдел)
+Конфигурация OSPF для DIST2 (Технический отдел)
 ~~~
 conf t
 router ospf 10
@@ -40,7 +40,7 @@ router ospf 10
  network 192.168.1.96 0.0.0.31 area 0   ! Внутренние L3 интерфейсы
 exit
 ~~~
-! Конфигурация OSPF для DIST4 (Call-центр)
+Конфигурация OSPF для DIST4 (Call-центр)
 ~~~
 conf t
 router ospf 10
@@ -50,7 +50,7 @@ router ospf 10
 exit
 ~~~
 
-! Конфигурация OSPF для DIST5 (Отдел продаж)
+Конфигурация OSPF для DIST5 (Отдел продаж)
 ~~~
 conf t
 router ospf 1
